@@ -205,3 +205,22 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# =========================
+# ML Project Specific
+# =========================
+
+# Raw datasets (do not commit large CSVs)
+data/raw/
+
+# Experiment tracking
+mlruns/
+
+# Trained models / checkpoints
+models/
+
+# Notebooks checkpoints (extra safety)
+.ipynb_checkpoints/
+
+.DS_Store
+
